@@ -64,7 +64,7 @@ export default function Header({}: Props) {
           <button>RESUME</button>
         </a>
 
-        <Link href="#contact">
+       
 
         <SocialIcon
           className="cursor-pointer"
@@ -72,6 +72,7 @@ export default function Header({}: Props) {
           fgColor="gray"
           bgColor="transparent"
           />
+         <Link href="#contact">
         <p className="uppercase hidden md:inline-flex text-sm text-gray-400 hover:text-red-400">
           Get in Touch
         </p>
